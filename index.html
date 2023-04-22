@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Hand Gesture Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+     <h3 class="btn btn-danger heading">Hand Gesture Web App 
+      <br>
+      <span>&#128076;</span>
+
+        
+        
+       <span> &#128077; </span>
+        
+        
+        
+        <span>&#128078; </span>
+        
+        
+    
+        <span>&#128079;</span>
+        
+        
+        
+        <span>&#128080;</span>
+        
+        
+    
+        <span>&#128400;</span>
+      
+    </h3>
+    <br><br>
+
+      <p style= "font-size: 22px;" >Take your selfie to generate emoji
+      	<br>
+        <b style=>&#128077;
+        </b>
+        <br>
+        <b> &#128078;
+    </b>
+        <br>
+        <b> &#128076;
+
+    </b>
+        <br>
+      </p>
+    
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label> Live view </label>
+        <div id="camera"></div>
+
+        <br><br>
+        <button onclick="take_snapshot();" class="btn btn-primary">Capture the Image</button>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        
+
+      
+        <label>Prediction</label>
+        <p id="result_emoji_name" class="emoji_name"></p>
+        <p id="result_emoji" class="emoji"></p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <div id="result"></div>
+
+        <br><br>
+        <button onclick="got_result();" class="btn btn-success">Predict the gesture</button>
+
+      </div>
+
+      <br><br>
+
+       <p id="quote" style="color:red; font-size: 30px; box-shadow: 2px 2px greenyellow;"
+
+
+
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+

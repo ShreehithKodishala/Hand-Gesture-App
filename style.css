@@ -1,0 +1,73 @@
+body
+{
+    background-image: linear-gradient(cyan, lightgreen);
+
+}
+
+span{
+  font-size: 30px;
+}
+#camera 
+{
+    border: 10px solid yellow;
+
+  width: 470px;
+  height: 412px; 
+  
+}
+
+#result{
+
+  border: 10px solid rgb(90, 60, 300);
+
+  width: 470px;
+  height: 412px;
+}
+#result_emoji_name ,#result_emoji_name2  
+{
+  color: black;
+}
+.emoji_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+
+  letter-spacing: 7px;
+  font-size: 20px;
+  
+}
+
+label{
+
+  color: darkgreen;
+  font-size: 15px;
+  background-color: lightgoldenrodyellow;
+
+}
+
+.btn-danger:hover{
+
+background-color: aqua;
+color: red;
+
+} 
+
+.btn-primary:hover{
+
+background-color: coral;
+
+}
+
+.btn-success:hover{
+
+background-color: chartreuse;
+
+}
+
+
